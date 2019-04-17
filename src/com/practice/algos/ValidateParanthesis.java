@@ -9,6 +9,7 @@ public class ValidateParanthesis {
 		System.out.println(validateString("(A+B))*(A-B)"));
 		System.out.println(validateString("(A+B))*((A-B)"));
 		System.out.println(validateString("(A+B)*(B)* (A-B)-(B)"));
+		System.out.println(validateString("(A+B)*(B)- (A))"));
 	}
 	
 	private static boolean validateString(String input) {
